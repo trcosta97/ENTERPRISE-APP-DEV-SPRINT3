@@ -124,6 +124,44 @@ Nesse caso, a iniciativa também promove a inclusão e acessibilidade para um p�
 - Ao concluir a interação com o especialista, o usuário pode encerrar a conversa de forma simples.  
 - Um botão de encerramento estará visível na interface do chat, facilmente identificável.
 
+## Documentação API
+
+### Endpoints
+#### Enviar mensagem  
+Endpoint: /hearmeout/messages/send  
+Verbo HTTP: POST  
+Parâmetros: • user_id: ID do usuário que envia a mensagem (string, obrigatório)  
+• message: Texto da mensagem enviada pelo usuário (string, obrigatório)  
+
+Respostas: • 200 OK: Mensagem enviada com sucesso.  
+• 400 Bad Request: Parâmetros ausentes.  
+• 500 Internal Server Error: Erro no processamento da mensagem.  
+
+#### Obter histórico de mensagens  
+Endpoint: /hearmeout/messages/history  
+Verbo HTTP: GET  
+Parâmetros:  
+• user_id: ID do usuário para o qual o histórico de mensagens será retornado (string, obrigatório)  
+
+Respostas:  
+• 200 OK: Histórico de mensagens obtido com sucesso.  
+• 400 Bad Request: Parâmetros ausentes.  
+• 500 Internal Server Error: Erro ao recuperar o histórico de mensagens.  
+
+#### Ativar/Desativar funcionalidade de voz  
+Endpoint: / hearmeout /voice/toggle  
+Verbo HTTP: PUT  
+Parâmetros: • user_id: ID do usuário que deseja ativar/desativar a funcionalidade de voz (string, obrigatório) • enabled: Estado da funcionalidade de voz (boolean, obrigatório)  
+
+Respostas:  
+• 200 OK: Funcionalidade de voz ativada/desativada com sucesso.  
+• 400 Bad Request: Parâmetros ausentes.  
+• 500 Internal Server Error: Erro ao alternar a funcionalidade de voz.  
+
+### Próximos Passos  
+Implementar a lógica de conversão de áudio em texto usando o Google Cloud Speech-to-Text.  
+
+
 ## Vídeo demonstrativo
 - https://www.youtube.com/watch?v=so5-6eabd4o&ab_channel=ViniciusGon%C3%A7alves  
 
