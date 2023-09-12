@@ -10,8 +10,9 @@ Nesse caso, a iniciativa também promove a inclusão e acessibilidade para um p�
 
 ## Principais funcionalidades  
 ### Login  
+<p align="center">
 <img src="https://github.com/trcosta97/ENTERPRISE-APP-DEV-SPRINT3/assets/101136329/d1b6d710-599f-4e34-8d1f-a03626a2a68a" alt="MicrosoftTeams-image (3)" width="300px">
-
+</p>
 #### 1-Verificação de Cadastro Existente:  
 
 - O chat inicia uma interação questionando se o usuário já possui um cadastro no HerMeOut.  
@@ -40,8 +41,9 @@ Nesse caso, a iniciativa também promove a inclusão e acessibilidade para um p�
 - Essa alternativa é particularmente útil para usuários que ainda não possuem um cadastro no sistema.
 
 ### Cadastro
-![MicrosoftTeams-image (1)](https://github.com/trcosta97/ENTERPRISE-APP-DEV-SPRINT3/assets/101136329/e01b21b6-0ed6-4813-9058-2a768e18c232)
-
+<p align="center">
+<img src="https://github.com/trcosta97/ENTERPRISE-APP-DEV-SPRINT3/assets/101136329/e01b21b6-0ed6-4813-9058-2a768e18c232" alt="MicrosoftTeams-image (2)" width="300px">
+</p>
 
 #### 1-Introdução e Instruções Auditivas:  
 
@@ -84,8 +86,10 @@ Nesse caso, a iniciativa também promove a inclusão e acessibilidade para um p�
 - O chat está pronto para responder as perguntas e fornecer assistência adicional.
 
 ### Bate-Papo
-![MicrosoftTeams-image (4)](https://github.com/trcosta97/ENTERPRISE-APP-DEV-SPRINT3/assets/101136329/bf9b9a9f-02a6-4dcb-b418-3be1a9a3488f)
 
+<p align="center">
+<img src="https://github.com/trcosta97/ENTERPRISE-APP-DEV-SPRINT3/assets/101136329/bf9b9a9f-02a6-4dcb-b418-3be1a9a3488f" alt="MicrosoftTeams-image (1)" width="300px">
+</p>
 
 #### 1-Iniciando o Bate-Papo:  
 
@@ -120,7 +124,8 @@ Nesse caso, a iniciativa também promove a inclusão e acessibilidade para um p�
 - Ao concluir a interação com o especialista, o usuário pode encerrar a conversa de forma simples.  
 - Um botão de encerramento estará visível na interface do chat, facilmente identificável.
 
-
+## Vídeo demonstrativo
+- https://www.youtube.com/watch?v=so5-6eabd4o&ab_channel=ViniciusGon%C3%A7alves  
 
 
 
